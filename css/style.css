@@ -1,0 +1,76 @@
+.panel {
+    margin-bottom: 15px;
+    padding: 15px;
+    background-color: whitesmoke;
+    width: 300px;
+}
+
+label {
+    display: block;
+}
+
+input {
+    width: 100%;
+}
+
+.inputgroup {
+    padding: 0 10px;
+}
+
+button {
+    margin-top: 15px;
+}
+
+h3 {
+    width: 332px;
+    text-align: center;
+    border: none;
+    padding: 10px 0 ;
+    margin: 0;
+    
+}
+
+.WeekDay {
+    width: 45px;
+    margin: 2px;
+    padding: 10px 0;
+    background-color: lawngreen;
+    margin: auto;
+    text-align: center;
+}
+
+.WeekEnd {
+    width: 45px;
+    margin: 2px;
+    padding: 10px 0;
+    background-color: yellow;
+    margin: auto;
+    text-align: center;
+}
+
+.Other {
+    width: 45px;
+    margin: 2px;
+    padding: 10px 0;
+    background-color: lightgray;
+    margin: auto;
+    text-align: center;
+}
+
+.HollyDay {
+    width: 45px;
+    margin: 2px;
+    padding: 10px 0;
+    background-color: orange;
+    margin: auto;
+    text-align: center;
+}
+
+.DayLabel {
+    width: 45px;
+    margin: 2px;
+    padding: 10px 0;
+    background-color: whitesmoke;
+    margin: auto;
+    text-align: center;
+}
