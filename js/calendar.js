@@ -141,4 +141,4 @@ function showWeeks() {
     // adding one day
     date = new Date(date.getTime() + 1 * 24 * 60 * 60 * 1000);
     getWeeks(date, days);
-}
+} 
