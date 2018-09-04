@@ -11,25 +11,20 @@
 </head>
 
 <body>
-    <h1>Programming Exercise UI Devs</h1>
+    <h1> Calculador Indice de Grasa Relativa a la Masa </h1>
     <div class="panel">
         <div class="inputgroup">
-            <label for="startdate">Start Date</label>
-            <input type="date" name="startdate" id="startdate">
+            <label for="altura">Altura cm</label>
+            <input type="number" name="altura" id="altura" min="0.5">
         </div>
 
         <div class="inputgroup">
-            <label for="numdays">Number of days</label>
-            <input type="number" name="numdays" id="numdays" min="1">
+            <label for="circunferencia">Circunferencia cm</label>
+            <input type="number" name="circunferencia" id="circunferencia" min="0.5">
         </div>
-
-        <div class="inputgroup">
-            <label for="countrycode">Country Code</label>
-            <input type="text" name="countrycode" id="countrycode">
-        </div>
-        <button type="submit" onclick="return showWeeks()">Submit</button>
+        <button type="submit" onclick="return rfmMan()">Hombre</button>    
+        <button type="submit" onclick="return rfmWomen()">Mujer</button>
     </div>
     <div id="content"></div>
 </body>
-
 </html>
