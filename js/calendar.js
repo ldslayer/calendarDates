@@ -142,7 +142,6 @@ function showWeeks() {
     date = new Date(date.getTime() + 1 * 24 * 60 * 60 * 1000);
     getWeeks(date, days);
 }
-
 function rfmMan(){
     let altura = parseFloat(document.getElementById("altura").value);
     let circunferencia = parseFloat(document.getElementById("circunferencia").value);
@@ -162,4 +161,4 @@ function rfmWomen(){
     Results.appendChild(texto);
     // Adding the Results to main content
     document.getElementById("content").appendChild(Results);
-}
+} 
